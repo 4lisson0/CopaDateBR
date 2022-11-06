@@ -12,9 +12,9 @@ function createCard(date, day, game) {
 function createGame(player1, hours, player2) {
     return `
         <li>
-            <img src="/assets/Bandeiras dos países/${player1}.svg" alt="Bandeira do ${player1}">
+            <img src="assets/Bandeiras dos países/${player1}.svg" alt="Bandeira do ${player1}">
                 <strong>${hours}</strong>
-            <img src="/assets/Bandeiras dos países/${player2}.svg" alt="Bandeira da ${player2}">
+            <img src="assets/Bandeiras dos países/${player2}.svg" alt="Bandeira da ${player2}">
         </li>
     `
 }
